@@ -1,0 +1,1159 @@
+/*=======================================
+       Basic Properties start
+
+
+       body
+{
+
+	height: 2000px;
+}
+==========================================*/
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#loading {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background: #fff
+    url("C:/xampp/htdocs/MyResponsiveWebsite/icons/mypreloader.gif") no-repeat
+    center;
+  z-index: 99999;
+}
+
+#myhead {
+  font-family: "Lobster", cursive;
+}
+/*=======================================
+       Basic Properties start
+==========================================*/
+
+/*=======================================
+       Navigation Properties start
+==========================================*/
+.navbar {
+  padding: 18px 0px;
+
+  background-color: #111e2d !important;
+
+  border-bottom: none !important;
+  transition: all 0.5s ease-in-out;
+}
+ul li a {
+  color: white !important;
+  font-weight: bold;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.5s ease-in;
+}
+
+ul li a:hover {
+  color: deepskyblue !important;
+  font-size: 14px;
+}
+.navbar-toggle {
+  border: 1px solid white !important;
+  transition: all 0.5s ease-in;
+}
+.navbar-toggle:hover {
+  background-color: deepskyblue !important;
+}
+
+#our-location {
+  border: 1px solid white;
+  border-radius: 45px;
+  padding: 12px 12px 12px 12px;
+
+  background: deepskyblue !important;
+}
+#our-location:hover {
+  background-color: white !important;
+}
+
+.navbar-inverse {
+  background-color: transparent !important;
+}
+
+/*=======================================
+       Navigation Properties ends
+==========================================*/
+
+/*=======================================
+  Sticky Navigation with background color
+==========================================*/
+
+.secondary {
+  background-color: #111e2d !important;
+}
+
+/*=======================================
+      Sticky Navigation Properties ends
+==========================================*/
+
+/*=======================================
+       Slider Properties start
+==========================================*/
+
+.slider {
+  width: 100%;
+  height: 100vh;
+  background-image: url(..//img/indexbg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.slider-overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+.slider-content {
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  color: white;
+}
+
+.icons .fa {
+  font-size: 40px;
+  margin-right: 7px;
+}
+
+.cta-div {
+  margin-top: 30px;
+}
+
+.btn1 {
+  padding: 13px 18px;
+  background-color: transparent;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 13px;
+  border: 2px solid white;
+  border-top-left-radius: 15px;
+  transition: all 0.3s ease-in;
+  margin-right: -6px;
+}
+.btn1:hover {
+  text-decoration: none;
+  color: white;
+  background-color: orangered;
+  border-color: orangered;
+  font-size: 15px;
+}
+
+.btn2 {
+  padding: 13px 18px;
+  background-color: transparent;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 13px;
+  border: 2px solid white;
+  background-color: deepskyblue;
+  border-bottom-right-radius: 15px;
+  transition: all 0.5s ease-in;
+}
+.btn2:hover {
+  text-decoration: none;
+  color: white;
+  background-color: transparent;
+  border-color: deepskyblue;
+}
+
+.social-networks .fa {
+  border: 1px solid white;
+  padding: 10px;
+  color: white;
+  width: 35px;
+  height: 35px;
+  border-radius: 25px;
+  transition: all 0.5s ease-in;
+}
+
+.social-networks .fa:hover {
+  text-decoration: none;
+  background-color: deepskyblue;
+  color: red;
+  border: 1px solid deepskyblue;
+}
+
+.slider .text,
+.slider .typed-cursor {
+  display: inline;
+  font-size: 45px;
+  text-transform: uppercase;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+}
+
+.primary {
+  color: orangered;
+}
+
+/*=======================================
+       Login Page Properties start
+==========================================*/
+#login-heading {
+  padding-left: 100px !important;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.modal-content {
+  position: relative !important;
+  margin: 5% auto !important;
+  height: 400px !important;
+  background: #fff !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+}
+.left-box {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  box-sizing: border-box !important;
+  padding: 40px !important;
+  width: 300px !important;
+  height: 400px !important;
+}
+
+input[type="text"] {
+  margin-bottom: 20px !important;
+  padding: 4px !important;
+  width: 220px !important;
+  height: 32px !important;
+  border: none !important;
+  outline: none !important;
+  border-bottom: 1px solid #aaa !important;
+  font-weight: 400px !important;
+  font-size: 15px !important;
+  transition: 0.5s ease-in !important;
+}
+
+#btn-login {
+  margin-top: 20px;
+  width: 120px !important;
+  height: 32px !important;
+  border: none !important;
+  border-radius: 2px !important;
+  color: #fff !important;
+  font-weight: 500px !important;
+  text-transform: uppercase !important;
+  transition: 0.5 ease-in !important;
+  cursor: pointer !important;
+  position: relative !important;
+  background-color: orangered !important;
+  margin-left: 30px;
+  padding-top: 0px !important;
+}
+
+#btn-login:hover {
+  cursor: pointer !important;
+}
+
+.register h2 {
+  width: 250px;
+  padding-top: 0px;
+  font-size: 16px;
+}
+#create-account a {
+  text-decoration: none;
+  color: black;
+}
+
+.right-box {
+  position: absolute !important;
+  margin-top: -71.5px !important;
+  right: 0 !important;
+  box-sizing: border-box !important;
+  padding: 40px !important;
+  width: 300px !important;
+  height: 400px !important;
+  background-image: url(..//img/login.jpg);
+  background-size: cover !important;
+}
+
+.right-box .signinwith {
+  display: block;
+  margin-bottom: 40px;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+button.social {
+  margin-bottom: 20px;
+  width: 220px;
+  height: 36px;
+  border: none;
+  border-radius: 2px;
+  color: #fff;
+  font-weight: 500;
+  transition: 0.4s ease;
+  cursor: pointer;
+}
+
+.facebook {
+  background: #32508e;
+}
+.twitter {
+  background: #55acee;
+}
+.google {
+  background: #dd4b39;
+}
+
+/*=======================================
+       LoginPage Properties End
+==========================================*/
+
+/*=======================================
+       Our Services Properties Starts
+==========================================*/
+
+.service-area {
+  margin-top: 30px;
+}
+.service-area p {
+  margin-bottom: -5px;
+}
+.service-wrap {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  padding: 25px 35px;
+  position: relative;
+  transition: all 0.5s ease 0s;
+  z-index: 9;
+  margin-top: 20px;
+}
+
+.service-wrap::before,
+.service-wrap::after {
+  content: "";
+  height: 300%;
+  position: absolute;
+  transform: rotate(45deg);
+  width: 120%;
+  z-index: -9;
+  transition: all 0.5s;
+  opacity: 0;
+  background: #111e2d;
+}
+
+.service-wrap::before {
+  top: -37px;
+  left: 100%;
+}
+
+.service-wrap:hover:before {
+  left: -27px;
+  opacity: 1;
+}
+
+.service-wrap::after {
+  right: 100%;
+  bottom: -37px;
+}
+
+.service-wrap:hover:after {
+  right: -27px;
+  opacity: 1;
+}
+
+.service-wrap:hover {
+  color: white;
+}
+*/ .service-wrap:h3 {
+  color: white;
+}
+.service-wrap:hover h3 a {
+  color: white;
+}
+.service-wrap:hover h3 a:after {
+  background-color: white;
+}
+
+.service-icon i {
+  font-size: 30px;
+  margin-bottom: 20px;
+  transition: all 0.5s;
+}
+
+.service-wrap:hover .service-icon i {
+  transform: rotate(360deg);
+}
+
+.service-wrap h3 a {
+  font-size: 25px;
+  font-weight: 700;
+  padding-bottom: 15px;
+  position: relative;
+  text-decoration: none;
+  color: black;
+}
+
+.service-wrap p {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+.row:hover {
+  cursor: pointer;
+}
+
+/*=======================================
+       Our Services Properties End
+==========================================*/ /*=======================================
+       Basic Properties start
+
+
+       body
+{
+
+	height: 2000px;
+}
+==========================================*/
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#loading {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background: #fff
+    url("C:/xampp/htdocs/MyResponsiveWebsite/icons/mypreloader.gif") no-repeat
+    center;
+  z-index: 99999;
+}
+
+#myhead {
+  font-family: "Lobster", cursive;
+}
+/*=======================================
+       Basic Properties start
+==========================================*/
+
+/*=======================================
+       Navigation Properties start
+==========================================*/
+.navbar {
+  padding: 18px 0px;
+
+  background-color: #111e2d !important;
+
+  border-bottom: none !important;
+  transition: all 0.5s ease-in-out;
+}
+ul li a {
+  color: white !important;
+  font-weight: bold;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.5s ease-in;
+}
+
+ul li a:hover {
+  color: deepskyblue !important;
+  font-size: 14px;
+}
+.navbar-toggle {
+  border: 1px solid white !important;
+  transition: all 0.5s ease-in;
+}
+.navbar-toggle:hover {
+  background-color: deepskyblue !important;
+}
+
+#our-location {
+  border: 1px solid white;
+  border-radius: 45px;
+  padding: 12px 12px 12px 12px;
+
+  background: deepskyblue !important;
+}
+#our-location:hover {
+  background-color: white !important;
+}
+
+.navbar-inverse {
+  background-color: transparent !important;
+}
+
+/*=======================================
+       Navigation Properties ends
+==========================================*/
+
+/*=======================================
+  Sticky Navigation with background color
+==========================================*/
+
+.secondary {
+  background-color: #111e2d !important;
+}
+
+/*=======================================
+      Sticky Navigation Properties ends
+==========================================*/
+
+/*=======================================
+       Slider Properties start
+==========================================*/
+
+.slider {
+  width: 100%;
+  height: 100vh;
+  background-image: url(..//img/indexbg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.slider-overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+.slider-content {
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  color: white;
+}
+
+.icons .fa {
+  font-size: 40px;
+  margin-right: 7px;
+}
+
+.cta-div {
+  margin-top: 30px;
+}
+
+.btn1 {
+  padding: 13px 18px;
+  background-color: transparent;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 13px;
+  border: 2px solid white;
+  border-top-left-radius: 15px;
+  transition: all 0.3s ease-in;
+  margin-right: -6px;
+}
+.btn1:hover {
+  text-decoration: none;
+  color: white;
+  background-color: orangered;
+  border-color: orangered;
+  font-size: 15px;
+}
+
+.btn2 {
+  padding: 13px 18px;
+  background-color: transparent;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 13px;
+  border: 2px solid white;
+  background-color: deepskyblue;
+  border-bottom-right-radius: 15px;
+  transition: all 0.5s ease-in;
+}
+.btn2:hover {
+  text-decoration: none;
+  color: white;
+  background-color: transparent;
+  border-color: deepskyblue;
+}
+
+.social-networks .fa {
+  border: 1px solid white;
+  padding: 10px;
+  color: white;
+  width: 35px;
+  height: 35px;
+  border-radius: 25px;
+  transition: all 0.5s ease-in;
+}
+
+.social-networks .fa:hover {
+  text-decoration: none;
+  background-color: deepskyblue;
+  color: red;
+  border: 1px solid deepskyblue;
+}
+
+.slider .text,
+.slider .typed-cursor {
+  display: inline;
+  font-size: 45px;
+  text-transform: uppercase;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+}
+
+.primary {
+  color: orangered;
+}
+
+/*=======================================
+       Login Page Properties start
+==========================================*/
+#login-heading {
+  padding-left: 100px !important;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.modal-content {
+  position: relative !important;
+  margin: 5% auto !important;
+  height: 400px !important;
+  background: #fff !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+}
+.left-box {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  box-sizing: border-box !important;
+  padding: 40px !important;
+  width: 300px !important;
+  height: 400px !important;
+}
+
+input[type="text"] {
+  margin-bottom: 20px !important;
+  padding: 4px !important;
+  width: 220px !important;
+  height: 32px !important;
+  border: none !important;
+  outline: none !important;
+  border-bottom: 1px solid #aaa !important;
+  font-weight: 400px !important;
+  font-size: 15px !important;
+  transition: 0.5s ease-in !important;
+}
+
+#btn-login {
+  margin-top: 20px;
+  width: 120px !important;
+  height: 32px !important;
+  border: none !important;
+  border-radius: 2px !important;
+  color: #fff !important;
+  font-weight: 500px !important;
+  text-transform: uppercase !important;
+  transition: 0.5 ease-in !important;
+  cursor: pointer !important;
+  position: relative !important;
+  background-color: orangered !important;
+  margin-left: 30px;
+  padding-top: 0px !important;
+}
+
+#btn-login:hover {
+  cursor: pointer !important;
+}
+
+.register h2 {
+  width: 250px;
+  padding-top: 0px;
+  font-size: 16px;
+}
+#create-account a {
+  text-decoration: none;
+  color: black;
+}
+
+.right-box {
+  position: absolute !important;
+  margin-top: -71.5px !important;
+  right: 0 !important;
+  box-sizing: border-box !important;
+  padding: 40px !important;
+  width: 300px !important;
+  height: 400px !important;
+  background-image: url(..//img/login.jpg);
+  background-size: cover !important;
+}
+
+.right-box .signinwith {
+  display: block;
+  margin-bottom: 40px;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+button.social {
+  margin-bottom: 20px;
+  width: 220px;
+  height: 36px;
+  border: none;
+  border-radius: 2px;
+  color: #fff;
+  font-weight: 500;
+  transition: 0.4s ease;
+  cursor: pointer;
+}
+
+.facebook {
+  background: #32508e;
+}
+.twitter {
+  background: #55acee;
+}
+.google {
+  background: #dd4b39;
+}
+
+/*=======================================
+       LoginPage Properties End
+==========================================*/
+
+/*=======================================
+       Our Services Properties Starts
+==========================================*/
+
+.service-area {
+  margin-top: 30px;
+}
+.service-area p {
+  margin-bottom: -5px;
+}
+.service-wrap {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  padding: 25px 35px;
+  position: relative;
+  transition: all 0.5s ease 0s;
+  z-index: 9;
+  margin-top: 20px;
+}
+
+.service-wrap::before,
+.service-wrap::after {
+  content: "";
+  height: 300%;
+  position: absolute;
+  transform: rotate(45deg);
+  width: 120%;
+  z-index: -9;
+  transition: all 0.5s;
+  opacity: 0;
+  background: #111e2d;
+}
+
+.service-wrap::before {
+  top: -37px;
+  left: 100%;
+}
+
+.service-wrap:hover:before {
+  left: -27px;
+  opacity: 1;
+}
+
+.service-wrap::after {
+  right: 100%;
+  bottom: -37px;
+}
+
+.service-wrap:hover:after {
+  right: -27px;
+  opacity: 1;
+}
+
+.service-wrap:hover {
+  color: white;
+}
+*/ .service-wrap:h3 {
+  color: white;
+}
+.service-wrap:hover h3 a {
+  color: white;
+}
+.service-wrap:hover h3 a:after {
+  background-color: white;
+}
+
+.service-icon i {
+  font-size: 30px;
+  margin-bottom: 20px;
+  transition: all 0.5s;
+}
+
+.service-wrap:hover .service-icon i {
+  transform: rotate(360deg);
+}
+
+.service-wrap h3 a {
+  font-size: 25px;
+  font-weight: 700;
+  padding-bottom: 15px;
+  position: relative;
+  text-decoration: none;
+  color: black;
+}
+
+.service-wrap p {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+.row:hover {
+  cursor: pointer;
+}
+
+/*=======================================
+       Our Services Properties End
+==========================================*/
+
+/*=======================================
+      Index Page CSS Strat here
+==========================================*/
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,700;1,500&family=Poppins:wght@400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --open-sans: "Open Sans", sans-serif;
+  --poppins: "Poppins", sans-serif;
+}
+
+.navbar_section {
+  background-color: #012876;
+}
+
+/* Search button of menubar start from here*/
+
+.search_btn {
+  color: aliceblue;
+  background-color: rgb(230, 93, 44);
+  transition: all 0.1s;
+}
+
+.search_btn:hover {
+  color: aliceblue;
+  background-color: rgb(220, 67, 11);
+}
+
+.login_btn {
+  background-color: #2d60ee;
+  color: white;
+  outline: none;
+  transition: all 0.5s;
+}
+
+.login_btn:hover {
+  background-color: #1b51e3;
+  color: white;
+}
+
+/* Hero Section Start from here*/
+
+.hero_section {
+  background-color: #012876;
+}
+
+.hero_heading {
+  font-size: 2.7rem;
+  font-weight: bolder;
+  color: whitesmoke;
+  padding: 10px;
+  line-height: 3rem;
+  margin-bottom: 20px;
+  font-family: var(--poppins);
+}
+
+.hero_line {
+  width: 20px;
+  height: 3px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  background-color: aquamarine;
+}
+
+.hero_text {
+  color: rgb(209, 215, 215);
+  font-size: 1.2rem;
+  font-family: var(--open-sans);
+}
+
+.hero_read_more_btn {
+  background-color: #2d60ee;
+  outline: none;
+  border: 2px solid #2d60ee;
+  background-color: #012876;
+  padding: 10px;
+  color: white;
+  border-radius: 4px;
+  font-family: var(--poppins);
+  transition: all 0.5s;
+  margin-bottom: 30px;
+}
+
+.hero_read_more_btn:hover {
+  background-color: #2d60ee;
+  border-color: #011e58;
+}
+
+.hero_read_more_btn_icon {
+  top: 1px;
+  font-size: 22px;
+}
+
+@media screen and (max-width: 850px) {
+  .hero_heading {
+    font-size: 2rem;
+    font-weight: bolder;
+    color: whitesmoke;
+    padding: 5px;
+  }
+}
+@media screen and (max-width: 250px) {
+  .hero_heading {
+    font-size: 1.6rem;
+    font-weight: bolder;
+    color: whitesmoke;
+    padding: 5px;
+  }
+}
+@media screen and (max-width: 250px) {
+  .hero_text {
+    color: rgb(209, 215, 215);
+    font-size: 1rem;
+    font-family: var(--open-sans);
+  }
+}
+
+/* Top Category Start from here */
+.category_heading_section {
+  background-image: url(img/category_bg_img.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  object-fit: fill;
+}
+
+.category_heading_text {
+  font-size: 2.7rem;
+  font-weight: bolder;
+  color: rgb(81, 18, 18);
+  padding: 10px;
+  line-height: 3rem;
+  margin-bottom: 20px;
+  font-family: var(--poppins);
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width: 850px) {
+  .category_heading_text {
+    font-size: 2rem;
+    font-weight: bolder;
+    color: rgb(81, 18, 18);
+    font-family: var(--poppins);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+}
+
+@media screen and (max-width: 270px) {
+  .category_heading_text {
+    font-size: 1rem;
+    font-weight: bolder;
+    color: rgb(81, 18, 18);
+    font-family: var(--poppins);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+}
+
+/* Category Card Code Start from here */
+.category_card {
+  background-color: #1a326d;
+  /* background-image: url(img/card_bg.png); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: fill;
+}
+.card_wrapper {
+  width: 100%;
+}
+
+.anuj-card {
+  width: 18em;
+  /* background-image: linear-gradient(#dde3da6e,#dce9d789); */
+  background-color: rgba(255, 255, 255, 9);
+  background-image: url(img/card_insite_bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: fill;
+  transition: all 0.3s;
+}
+.anuj-card:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+@media screen and (max-width: 768px) {
+  .anuj-card {
+    width: 100%;
+  }
+}
+
+.anuj-card h1 {
+  font-size: 1.5em;
+  font-weight: 700;
+  line-height: 0.7em;
+  color: black;
+  font-family: var(--poppins);
+  margin-top: 10px;
+}
+.anuj-card p {
+  font-size: 0.9em;
+  font-family: var(--open-sans);
+  font-weight: 600;
+  color: rgb(162, 150, 150);
+}
+.image {
+  position: relative;
+  top: 10px;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  border: 2px solid black;
+}
+.icon {
+  font-size: 2.5em;
+  transition: 0.2s;
+}
+
+.anuj-card:hover .image {
+  border: 2px solid #1b51e3;
+}
+.anuj-card:hover .icon {
+  color: #1b51e3;
+}
+
+.img-text {
+  width: 100%;
+  height: 300px;
+  display: block;
+  text-align: center;
+  padding: 40% 5%;
+  background-color: #262626;
+  color: #fff;
+  border-radius: 15px;
+}
+.img-text h2 {
+  font-size: 25px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.img-text p {
+  font-size: 14px;
+}
+.single-box {
+  position: relative;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-area img {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 38%;
+  border: 5px solid #fff;
+  overflow: hidden;
+  top: 15px;
+  border-radius: 50%;
+}
+
+/* Testimonial Code Start from here */
+.testimonial-title {
+  color: #fff;
+}
+.testimonial-title h2 {
+  padding-left: 0.2em;
+}
+
+/* Footer code start from here */
+
+/* Trending course Start*/
+.trend-body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 15px;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 65vh;
+}
+
+.trend-car {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.trend-carousel {
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel__slider {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 80vw;
+  height: 400px;
+}
+
+.carousel__list {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.carousel__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid #333; */
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.carousel__item:hover {
+  transform: scale(1.1);
+  background-color: rgba(255, 255, 255, 0.7);
+}
+/* Trending course End*/
